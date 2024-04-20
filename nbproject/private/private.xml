@@ -28,12 +28,15 @@
             <file>file:/D:/windiartonugroho/src/fungsi/koneksiDB.java</file>
             <file>file:/D:/windiartonugroho/src/permintaan/DlgPermintaanRadiologi.java</file>
             <file>file:/D:/windiartonugroho/src/permintaan/DlgPermintaanLaboratorium.java</file>
+            <file>file:/D:/windiartonugroho/src/simrskhanza/DlgRawatJalan.java</file>
+            <file>file:/D:/windiartonugroho/src/simrskhanza/DlgKasirRalan.java</file>
             <file>file:/D:/windiartonugroho/src/simrskhanza/DlgAbout.java</file>
             <file>file:/D:/windiartonugroho/src/fungsi/sekuel.java</file>
+            <file>file:/D:/windiartonugroho/src/simrskhanza/DlgCariPasien.java</file>
             <file>file:/D:/windiartonugroho/src/keuangan/DlgBilingRalan.java</file>
-            <file>file:/D:/windiartonugroho/setting/database.xml</file>
+            <file>file:/D:/windiartonugroho/src/simrskhanza/DlgCariPoli.java</file>
             <file>file:/D:/windiartonugroho/README.md</file>
-            <file>file:/D:/windiartonugroho/nbproject/project.properties</file>
+            <file>file:/D:/windiartonugroho/src/simrskhanza/DlgIGD.java</file>
         </group>
     </open-files>
 </project-private>

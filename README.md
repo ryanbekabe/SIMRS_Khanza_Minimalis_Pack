@@ -4,7 +4,7 @@ git init
 
 git add .
 
-git commit -m "1 commit, 04042024, Modif Permintaan Lab."
+git commit -m "2 commit, 20042024, Tes update Commit Git Windows."
 
 git branch -M main
 
@@ -16,8 +16,19 @@ ____
 
 Kembangkan fitur SIMRS Khanza sesuai permintaan RS
 
+https://github.com/ryanbekabe/SIMRS_Khanza_Minimalis_Pack
+
 Hanya berisi project SIMRS, library terpisah agar lebih kecil ukuran projectnya, 163 MB (171.167.744 byte)
 
-Palangka Raya, 14.13 04/04/2024
+Bila ingin upload lagi ke GitHub ini, hapus dulu folder : build, dist, lib
+
+Folder yang diupload ke Github hanya: bjb, bkb, gambar, gambarradiologi, nbproject, report, src, suara
+
+Jika ingin melihat tampilan GUInya, Shift + F11 atau Clean and Build Project dulu, dan hasilnya muncul di: dist\SIMRSKhanza.jar
+
+
+ryanh@MSI MINGW64 /d/windiartonugroho (main)
+
+Palangka Raya, 12.32 20/04/2024
 
 Riyan Hidayat Samosir, S.Kom | HanyaJasa.Com | hanyajasa@gmail.com
