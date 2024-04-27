@@ -4,7 +4,7 @@ git init
 
 git add .
 
-git commit -m "2 commit, 20042024, Tes update Commit Git Windows."
+git commit -m "2 commit, 27042024, Tes update Commit Git Windows."
 
 git branch -M main
 
@@ -28,6 +28,15 @@ Jika ingin melihat tampilan GUInya, Shift + F11 atau Clean and Build Project dul
 
 
 ryanh@MSI MINGW64 /d/windiartonugroho (main)
+
+--VS--
+
+root@MSI:/home/msi# cd /mnt/d/git/windiartonugroho
+root@MSI:/mnt/d/git/windiartonugroho#
+
+
+
+
 
 Palangka Raya, 12.32 20/04/2024
 
