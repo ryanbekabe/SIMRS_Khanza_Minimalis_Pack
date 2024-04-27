@@ -4,7 +4,7 @@ git init
 
 git add .
 
-git commit -m "2 commit, 27042024, Tes update Commit Git Windows."
+git commit -m "3 commit, 27042024b, Tes update Commit Git Windows WSL."
 
 git branch -M main
 
