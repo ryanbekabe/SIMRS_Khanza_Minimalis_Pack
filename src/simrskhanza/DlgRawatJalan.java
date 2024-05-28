@@ -5326,6 +5326,41 @@ public final class DlgRawatJalan extends javax.swing.JDialog {
                             (!TBerat.getText().trim().equals(""))||(!TRespirasi.getText().trim().equals(""))||(!TNadi.getText().trim().equals(""))||
                             (!TGCS.getText().trim().equals(""))||(!TindakLanjut.getText().trim().equals(""))||(!TPenilaian.getText().trim().equals(""))||
                             (!TInstruksi.getText().trim().equals(""))||(!SpO2.getText().trim().equals(""))||(!TEvaluasi.getText().trim().equals(""))){
+
+                            if((TSuhu.getText().trim().equals(""))){
+                                JOptionPane.showMessageDialog(null,"Suhu harap dilengkapi!");
+                                return;
+                            }
+                            if((TTensi.getText().trim().equals(""))){
+                                JOptionPane.showMessageDialog(null,"Tensi harap dilengkapi!");
+                                return;
+                            }
+                            if((TBerat.getText().trim().equals(""))){
+                                JOptionPane.showMessageDialog(null,"Berat harap dilengkapi!");
+                                return;
+                            }
+                            if((TTinggi.getText().trim().equals(""))){
+                                JOptionPane.showMessageDialog(null,"Tinggi harap dilengkapi!");
+                                return;
+                            }
+                            if((TRespirasi.getText().trim().equals(""))){
+                                JOptionPane.showMessageDialog(null,"Respirasi harap dilengkapi!");
+                                return;
+                            }
+                            if((TNadi.getText().trim().equals(""))){
+                                JOptionPane.showMessageDialog(null,"Nadi harap dilengkapi!");
+                                return;
+                            }
+                            if((SpO2.getText().trim().equals(""))){
+                                JOptionPane.showMessageDialog(null,"SpO2 harap dilengkapi!");
+                                return;
+                            }
+                            if((TGCS.getText().trim().equals(""))){
+                                JOptionPane.showMessageDialog(null,"GCS harap dilengkapi!");
+                                return;
+                            }
+
+
                         if(KdPeg.getText().trim().equals("")||TPegawai.getText().trim().equals("")){
                             Valid.textKosong(KdPeg,"Dokter/Paramedis masih kosong...!!");
                         }else{
