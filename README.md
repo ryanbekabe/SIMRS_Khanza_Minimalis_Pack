@@ -4,7 +4,7 @@ git init
 
 git add .
 
-git commit -m "3 commit, 27042024b, Tes update Commit Git Windows WSL."
+git commit -m "4 commit, 28052024, Tes update Commit Git by Windows WSL."
 
 git branch -M main
 
@@ -31,13 +31,12 @@ ryanh@MSI MINGW64 /d/windiartonugroho (main)
 
 --VS--
 
-root@MSI:/home/msi# cd /mnt/d/git/windiartonugroho
-root@MSI:/mnt/d/git/windiartonugroho#
+root@MSI:/home/msi# cd/mnt/d/SIMRS_Khanza_Minimalis_Pack
+root@MSI:/mnt/d/SIMRS_Khanza_Minimalis_Pack
 
 
 
 
-
-Palangka Raya, 12.32 20/04/2024
+Palangka Raya, 09.27 28/05/2024
 
 Riyan Hidayat Samosir, S.Kom | HanyaJasa.Com | hanyajasa@gmail.com
