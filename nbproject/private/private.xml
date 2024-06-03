@@ -20,9 +20,14 @@
     </editor-bookmarks>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/home/rsi/gitproject/SIMRS_Khanza_Minimalis_Pack/src/simrskhanza/DlgRawatJalan.java</file>
+            <file>file:/home/rsi/gitproject/SIMRS_Khanza_Minimalis_Pack/src/simrskhanza/SIMRSKhanza.java</file>
             <file>file:/home/rsi/gitproject/SIMRS_Khanza_Minimalis_Pack/src/simrskhanza/DlgAbout.java</file>
+            <file>file:/home/rsi/gitproject/SIMRS_Khanza_Minimalis_Pack/src/simrskhanza/frmUtama.java</file>
+            <file>file:/home/rsi/gitproject/SIMRS_Khanza_Minimalis_Pack/src/fungsi/koneksiDB.java</file>
+            <file>file:/home/rsi/gitproject/SIMRS_Khanza_Minimalis_Pack/src/simrskhanza/DlgRawatJalan.java</file>
+            <file>file:/home/rsi/gitproject/SIMRS_Khanza_Minimalis_Pack/src/simrskhanza/DlgCariPeriksaLabPA.java</file>
             <file>file:/home/rsi/gitproject/SIMRS_Khanza_Minimalis_Pack/src/fungsi/validasi.java</file>
+            <file>file:/home/rsi/gitproject/SIMRS_Khanza_Minimalis_Pack/src/simrskhanza/DlgPeriksaLaboratoriumPA.java</file>
         </group>
     </open-files>
 </project-private>

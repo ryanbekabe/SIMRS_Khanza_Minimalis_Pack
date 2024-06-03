@@ -4,7 +4,7 @@ git init
 
 git add .
 
-git commit -m "5 commit, 28052024b, Tes update DlgRawatJalan.java Commit Git by Linux Mint."
+git commit -m "6 commit, 03062024, Lanjut update DlgRawatJalan.java harus isi SOAP dkk, rptPeriksaLabPermintaanPADT.jasper Commit Git by Linux Mint."
 
 git branch -M main
 
@@ -39,6 +39,6 @@ Update isi SOAP dan tensi segala di Tindakan Rawat Jalan
 
 /home/rsi/gitproject/SIMRS_Khanza_Minimalis_Pack/src/simrskhanza/DlgRawatJalan.java
 
-Palangka Raya, 09.27 28/05/2024
+Palangka Raya, 14.19 03/06/2024
 
 Riyan Hidayat Samosir, S.Kom | HanyaJasa.Com | hanyajasa@gmail.com

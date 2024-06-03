@@ -5327,6 +5327,12 @@ public final class DlgRawatJalan extends javax.swing.JDialog {
                             (!TGCS.getText().trim().equals(""))||(!TindakLanjut.getText().trim().equals(""))||(!TPenilaian.getText().trim().equals(""))||
                             (!TInstruksi.getText().trim().equals(""))||(!SpO2.getText().trim().equals(""))||(!TEvaluasi.getText().trim().equals(""))){
 
+                            String inputTextTKeluhan = TKeluhan.getText();
+                            String inputTextTPemeriksaan = TPemeriksaan.getText();
+                            String inputTextTPenilaian = TPenilaian.getText();
+                            String inputTextTindakLanjut = TindakLanjut.getText();
+
+                            
                             if((TSuhu.getText().trim().equals(""))){
                                 JOptionPane.showMessageDialog(null,"Suhu harap dilengkapi!");
                                 return;
@@ -5359,8 +5365,49 @@ public final class DlgRawatJalan extends javax.swing.JDialog {
                                 JOptionPane.showMessageDialog(null,"GCS harap dilengkapi!");
                                 return;
                             }
+                            
+                            if((TKeluhan.getText().trim().equals(""))){
+                                JOptionPane.showMessageDialog(null,"Keluhan (S) harap dilengkapi!");
+                                return;
+                            }
+                            if((TPemeriksaan.getText().trim().equals(""))){
+                                JOptionPane.showMessageDialog(null,"Pemeriksaan (O) harap dilengkapi!");
+                                return;
+                            }
+                            if((TPenilaian.getText().trim().equals(""))){
+                                JOptionPane.showMessageDialog(null,"Penilaian (A) harap dilengkapi!");
+                                return;
+                            }
+                            if((TindakLanjut.getText().trim().equals(""))){
+                                JOptionPane.showMessageDialog(null,"Tindak Lanjut (P) harap dilengkapi!");
+                                return;
+                            }
+                            if((TInstruksi.getText().trim().equals(""))){
+                                JOptionPane.showMessageDialog(null,"Instruksi harap dilengkapi!");
+                                return;
+                            }
+                            if((TEvaluasi.getText().trim().equals(""))){
+                                JOptionPane.showMessageDialog(null,"Evaluasi harap dilengkapi!");
+                                return;
+                            }
 
-
+                            if (inputTextTKeluhan.length() < 2) {
+                                JOptionPane.showMessageDialog(null,"Keluhan (S) harap dilengkapi!!");
+                                return;
+                            }
+                            if (inputTextTPemeriksaan.length() < 2) {
+                                JOptionPane.showMessageDialog(null,"Pemeriksaan (O) harap dilengkapi!!");
+                                return;
+                            }
+                            if (inputTextTPenilaian.length() < 2) {
+                                JOptionPane.showMessageDialog(null,"Penilaian (A) harap dilengkapi!!");
+                                return;
+                            }
+                            if (inputTextTindakLanjut.length() < 2) {
+                                JOptionPane.showMessageDialog(null,"Tindak Lanjut (P) harap dilengkapi!!");
+                                return;
+                            }
+                            
                         if(KdPeg.getText().trim().equals("")||TPegawai.getText().trim().equals("")){
                             Valid.textKosong(KdPeg,"Dokter/Paramedis masih kosong...!!");
                         }else{
