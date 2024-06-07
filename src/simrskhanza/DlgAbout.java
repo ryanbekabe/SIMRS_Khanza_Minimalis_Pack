@@ -159,7 +159,7 @@ public class DlgAbout extends javax.swing.JDialog {
 
         jLabel14.setFont(new java.awt.Font("Tahoma", 0, 11)); // NOI18N
         jLabel14.setForeground(new java.awt.Color(50, 50, 50));
-        jLabel14.setText("gunakan. Jagan lupa untuk mengatur hak");
+        jLabel14.setText("gunakan. Jangan lupa untuk mengatur hak");
         jLabel14.setName("jLabel14"); // NOI18N
         panelGlass1.add(jLabel14);
         jLabel14.setBounds(230, 50, 220, 14);
@@ -173,8 +173,7 @@ public class DlgAbout extends javax.swing.JDialog {
 
         jLabel17.setFont(new java.awt.Font("Tahoma", 0, 11)); // NOI18N
         jLabel17.setForeground(new java.awt.Color(50, 50, 50));
-        jLabel17.setText("240314_Samosir290524");
-        jLabel17.setToolTipText("");
+        jLabel17.setText("240314_Samosir060624");
         jLabel17.setName("jLabel17"); // NOI18N
         panelGlass1.add(jLabel17);
         jLabel17.setBounds(107, 8, 120, 14);

@@ -87,7 +87,7 @@
 		<band splitType="Stretch"/>
 	</background>
 	<detail>
-		<band height="802" splitType="Stretch">
+		<band height="797" splitType="Stretch">
 			<staticText>
 				<reportElement positionType="Float" mode="Transparent" x="1" y="193" width="91" height="15" forecolor="#000000" backcolor="#F0F0DC" uuid="36f7d90a-d07d-47c8-946e-17f9a0eb610d">
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
@@ -393,10 +393,10 @@
 			<textField>
 				<reportElement positionType="Float" x="1" y="121" width="519" height="24" uuid="c6d97a38-5b1d-4a26-8b4b-395c101ae038"/>
 				<textElement textAlignment="Center">
-					<font fontName="Tahoma" size="11" isBold="true"/>
+					<font fontName="Tahoma" size="11" isBold="false"/>
 					<paragraph lineSpacing="Single"/>
 				</textElement>
-				<textFieldExpression><![CDATA["HASIL PEMBACAAN GAMBARAN DARAH TEPI"]]></textFieldExpression>
+				<textFieldExpression><![CDATA["HASIL PEMERIKSAAN SAMPEL PA JARINGAN"]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
 				<reportElement positionType="Float" x="1" y="99" width="244" height="15" uuid="de9168a0-41c9-49fd-893c-c36c0df01581"/>
@@ -464,7 +464,7 @@
 				</textElement>
 				<textFieldExpression><![CDATA["( "+$P{penjab}+" )"]]></textFieldExpression>
 			</textField>
-			<textField pattern="dd/MM/yyyy HH.mm.ss" isBlankWhenNull="false">
+			<textField pattern="dd/MM/yyyy" isBlankWhenNull="false">
 				<reportElement key="textField" positionType="Float" x="380" y="490" width="109" height="15" forecolor="#000000" backcolor="#FFFFFF" uuid="03dd2d1e-516c-43d5-98a5-c1f66b58921b"/>
 				<box>
 					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
@@ -492,7 +492,7 @@
 					<font fontName="Tahoma" size="10" isBold="false"/>
 					<paragraph lineSpacing="Single"/>
 				</textElement>
-				<text><![CDATA[Kepala Instalasi Laboratorium]]></text>
+				<text><![CDATA[Pemeriksa]]></text>
 			</staticText>
 			<componentElement>
 				<reportElement positionType="Float" x="291" y="537" width="219" height="50" isRemoveLineWhenBlank="true" uuid="00f82bcf-19c5-4baf-ba5a-737b586fa32e">
@@ -503,31 +503,23 @@
 				</jr:QRCode>
 			</componentElement>
 			<staticText>
-				<reportElement positionType="Float" mode="Transparent" x="1" y="269" width="98" height="13" forecolor="#000000" backcolor="#F0F0DC" uuid="856db587-f334-4699-a86f-aa66b61965f1"/>
+				<reportElement positionType="Float" mode="Transparent" x="1" y="267" width="98" height="13" forecolor="#000000" backcolor="#F0F0DC" uuid="856db587-f334-4699-a86f-aa66b61965f1"/>
 				<textElement verticalAlignment="Bottom">
 					<font fontName="Tahoma" size="10" isBold="true"/>
 					<paragraph lineSpacing="Single"/>
 				</textElement>
-				<text><![CDATA[SERI ERITROSIT  :]]></text>
+				<text><![CDATA[Makroskopik  :]]></text>
 			</staticText>
 			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
-				<reportElement positionType="Float" x="120" y="330" width="402" height="36" uuid="209b520d-37c4-4140-bc5a-e99d2b8f3ea2"/>
+				<reportElement positionType="Float" x="102" y="267" width="415" height="51" uuid="209b520d-37c4-4140-bc5a-e99d2b8f3ea2"/>
 				<textElement verticalAlignment="Top">
 					<font fontName="Tahoma" size="10"/>
 					<paragraph lineSpacing="Single"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{temp3}]]></textFieldExpression>
 			</textField>
-			<staticText>
-				<reportElement positionType="Float" mode="Transparent" x="1" y="367" width="98" height="13" forecolor="#000000" backcolor="#F0F0DC" uuid="42955d82-cb53-4b27-a226-1a42a24e9abb"/>
-				<textElement verticalAlignment="Bottom">
-					<font fontName="Tahoma" size="10" isBold="true"/>
-					<paragraph lineSpacing="Single"/>
-				</textElement>
-				<text><![CDATA[SERI LEUKOSIT    :]]></text>
-			</staticText>
 			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
-				<reportElement positionType="Float" x="107" y="367" width="415" height="32" uuid="48c1de1c-50a3-480f-a67d-acddc85db355"/>
+				<reportElement positionType="Float" x="102" y="318" width="415" height="49" uuid="48c1de1c-50a3-480f-a67d-acddc85db355"/>
 				<textElement verticalAlignment="Top">
 					<font fontName="Tahoma" size="10"/>
 					<paragraph lineSpacing="Single"/>
@@ -535,15 +527,15 @@
 				<textFieldExpression><![CDATA[$F{temp4}]]></textFieldExpression>
 			</textField>
 			<staticText>
-				<reportElement positionType="Float" mode="Transparent" x="1" y="400" width="98" height="13" forecolor="#000000" backcolor="#F0F0DC" uuid="85df173d-6a99-44e6-aedd-c63e07e3fc3d"/>
+				<reportElement positionType="Float" mode="Transparent" x="1" y="367" width="98" height="13" forecolor="#000000" backcolor="#F0F0DC" uuid="85df173d-6a99-44e6-aedd-c63e07e3fc3d"/>
 				<textElement verticalAlignment="Bottom">
 					<font fontName="Tahoma" size="10" isBold="true"/>
 					<paragraph lineSpacing="Single"/>
 				</textElement>
-				<text><![CDATA[SERI TROMBOSIT :]]></text>
+				<text><![CDATA[Kesimpulan    :]]></text>
 			</staticText>
 			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
-				<reportElement positionType="Float" x="107" y="401" width="415" height="34" uuid="d581c5a4-b062-4427-aaf1-e9ce6f0572d4"/>
+				<reportElement positionType="Float" x="102" y="367" width="415" height="56" uuid="d581c5a4-b062-4427-aaf1-e9ce6f0572d4"/>
 				<textElement verticalAlignment="Top">
 					<font fontName="Tahoma" size="10"/>
 					<paragraph lineSpacing="Single"/>
@@ -551,7 +543,7 @@
 				<textFieldExpression><![CDATA[$F{temp5}]]></textFieldExpression>
 			</textField>
 			<staticText>
-				<reportElement positionType="Float" mode="Transparent" x="1" y="438" width="98" height="13" forecolor="#000000" backcolor="#F0F0DC" uuid="821f1438-9d8b-4370-9264-0567ec29c0ed"/>
+				<reportElement positionType="Float" mode="Transparent" x="-49" y="510" width="28" height="11" forecolor="#000000" backcolor="#F0F0DC" uuid="821f1438-9d8b-4370-9264-0567ec29c0ed"/>
 				<textElement verticalAlignment="Bottom">
 					<font fontName="Tahoma" size="10" isBold="true"/>
 					<paragraph lineSpacing="Single"/>
@@ -559,7 +551,7 @@
 				<text><![CDATA[KESAN / SARAN    :]]></text>
 			</staticText>
 			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
-				<reportElement positionType="Float" x="106" y="438" width="415" height="42" uuid="f2fed99b-1a65-4415-8bb4-2496e6cb9806"/>
+				<reportElement positionType="Float" x="-10" y="537" width="59" height="2" uuid="f2fed99b-1a65-4415-8bb4-2496e6cb9806"/>
 				<textElement verticalAlignment="Top">
 					<font fontName="Tahoma" size="10"/>
 					<paragraph lineSpacing="Single"/>
@@ -583,7 +575,7 @@
 				<text><![CDATA[:]]></text>
 			</staticText>
 			<textField isBlankWhenNull="true">
-				<reportElement positionType="Float" x="102" y="224" width="182" height="34" uuid="fcdda3b7-1076-4c75-b7f3-270a4e088421"/>
+				<reportElement positionType="Float" x="102" y="224" width="182" height="45" uuid="fcdda3b7-1076-4c75-b7f3-270a4e088421"/>
 				<textElement verticalAlignment="Top">
 					<font fontName="Tahoma" size="10"/>
 					<paragraph lineSpacing="Single"/>
@@ -591,40 +583,20 @@
 				<textFieldExpression><![CDATA[$F{temp2}]]></textFieldExpression>
 			</textField>
 			<staticText>
-				<reportElement x="10" y="290" width="70" height="20" uuid="0075e1ec-bcd0-4b35-b702-6c377a2b8ee8"/>
-				<text><![CDATA[- Anisositosis :]]></text>
-			</staticText>
-			<staticText>
-				<reportElement x="10" y="320" width="70" height="20" uuid="b999940b-0791-4c2b-b808-3b02a6fb36e7"/>
-				<text><![CDATA[- Poikilositosis :]]></text>
-			</staticText>
-			<staticText>
-				<reportElement x="120" y="269" width="100" height="30" uuid="8b470958-a967-457c-a8ad-8e51498fee98"/>
-				<text><![CDATA[Distribusi sel normal]]></text>
-			</staticText>
-			<line>
-				<reportElement x="88" y="295" width="9" height="1" uuid="e15baa52-7daf-45cd-b66f-8158c6411885"/>
-			</line>
-			<line>
-				<reportElement x="88" y="333" width="9" height="1" uuid="126ac464-de4a-4731-abae-35578f4ea0bc"/>
-			</line>
-			<line>
-				<reportElement x="98" y="313" width="9" height="1" uuid="76be0eca-4c62-4044-a9dc-769dea99c568"/>
-			</line>
-			<line>
-				<reportElement x="97" y="295" width="1" height="39" uuid="a30be65e-5bea-468e-823d-ebcc7125d36b"/>
-			</line>
-			<staticText>
-				<reportElement x="120" y="303" width="124" height="26" uuid="9ce2353f-f238-4961-a931-20d56e12768c"/>
-				<text><![CDATA[Normositik Normokromik]]></text>
-			</staticText>
-			<staticText>
 				<reportElement positionType="Float" mode="Transparent" x="290" y="522" width="222" height="15" forecolor="#000000" backcolor="#F0F0DC" uuid="05b225ab-04bb-43aa-aded-bbaaddc10876"/>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font fontName="Tahoma" size="10" isBold="false"/>
 					<paragraph lineSpacing="Single"/>
 				</textElement>
 				<text><![CDATA[RS Islam PKU Muhammadiyah Palangka Raya]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" mode="Transparent" x="1" y="317" width="98" height="13" forecolor="#000000" backcolor="#F0F0DC" uuid="3a5d7ab5-f8e1-4393-a207-09aef8c988ad"/>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="Tahoma" size="10" isBold="true"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[Mikroskopik   :]]></text>
 			</staticText>
 		</band>
 	</detail>

@@ -5327,6 +5327,7 @@ public final class DlgRawatJalan extends javax.swing.JDialog {
                             (!TGCS.getText().trim().equals(""))||(!TindakLanjut.getText().trim().equals(""))||(!TPenilaian.getText().trim().equals(""))||
                             (!TInstruksi.getText().trim().equals(""))||(!SpO2.getText().trim().equals(""))||(!TEvaluasi.getText().trim().equals(""))){
 
+
                             String inputTextTKeluhan = TKeluhan.getText();
                             String inputTextTPemeriksaan = TPemeriksaan.getText();
                             String inputTextTPenilaian = TPenilaian.getText();
@@ -5406,8 +5407,8 @@ public final class DlgRawatJalan extends javax.swing.JDialog {
                             if (inputTextTindakLanjut.length() < 2) {
                                 JOptionPane.showMessageDialog(null,"Tindak Lanjut (P) harap dilengkapi!!");
                                 return;
-                            }
-                            
+                            }                        
+
                         if(KdPeg.getText().trim().equals("")||TPegawai.getText().trim().equals("")){
                             Valid.textKosong(KdPeg,"Dokter/Paramedis masih kosong...!!");
                         }else{
