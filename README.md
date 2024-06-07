@@ -4,7 +4,7 @@ git init
 
 git add .
 
-git commit -m "7 commit, 07062024, Lanjut update DlgRawatJalan.java harus isi SOAP dkk, rptPeriksaLabPermintaanPADT.jasper Commit Git Windows WSL."
+git commit -m "8 commit, 07062024b, Lanjut update DlgRawatJalan.java harus isi SOAP dkk, rptPeriksaLabPermintaanPADT.jasper Commit Git Windows WSL."
 
 git branch -M main
 
@@ -18,8 +18,7 @@ Kembangkan fitur SIMRS Khanza sesuai permintaan RS
 
 https://github.com/ryanbekabe/SIMRS_Khanza_Minimalis_Pack
 
-Hanya berisi project SIMRS, library (.jar) dan project lainnya terpisah agar lebih kecil ukuran projectnya, 157 MB (164,880,243 bytes)
-
+Hanya berisi project SIMRS, library (.jar) dan project lainnya terpisah agar lebih kecil ukuran projectnya, 157 MB (164,880,243 bytes). Full lengkap dengan .git = 276 MB (290,351,356 bytes)
 Bila ingin upload lagi ke GitHub ini, hapus/pindah dulu folder : build, cache, dist, lib
 
 Folder yang diupload ke Github hanya: bjb, bkb, gambar, gambarradiologi, nbproject, report, src, suara
@@ -34,6 +33,9 @@ ryanh@MSI MINGW64 /d/windiartonugroho (main)
 root@MSI:/home/msi# cd /mnt/d/git/windiartonugroho
 root@MSI:/mnt/d/git/windiartonugroho#
 
+MSI Win
+D:\windiartonugroho\
+D:\git\SIMRS_Khanza_Minimalis_Pack\
 
 Lengkapi SOAP dokter; Edit Hasil Pemeriksaan LAB PA report/jasper;
 

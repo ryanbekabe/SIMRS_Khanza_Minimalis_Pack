@@ -53,9 +53,9 @@ public class koneksiDB {
                         "  *Pengembangan pada: KOP Surat Report, Hasil Lab., Warna Hijau untuk Versi Modif.                         \n"+
                         "  1) Form/Java: RMPenilaianAwalKeperawatanRalan.java, SuratButaWarna.java, SuratBebasNarkoba.java, DlgIKBBayi.java, SuratKeteranganSehat.java, DlgPasienMati.java, SuratSakit.java, DlgCariPeriksaLab.java, DlgPermintaanLaboratorium.java, koneksiDB.java, sekuel.java;    \n"+
                         "  2) Report: rptBebasNarkoba.jasper, rptCetakPenilaianAwalKeperawatanRalan.jasper, rptPeriksaLab.jasper (Short), rptPeriksaLab2.jasper (Long), rptPeriksaLab3.jasper (Swab), rptSKL2.jasper, rptSuratKematian.jasper, rptSuratKeteranganSehat.jasper, rptSuratSakit5.jasper, rptSuratTidakButaWarna.jasper;     \n"+
-                        "  3) Perbaikan: Permintaan Lab;     \n"+
-                        "  4) Lengkapi: SOAP;     \n"+
-                        "  Re-Compile_By: Riyan Hidayat Samosir _ HanyaJasa.Com, 14.24 29/05/2024 - RS Islam PKU Muhammadiyah Palangka Raya.");
+                        "  3) Perbaikan: Permintaan Lab; Hasil Periksa Lab PA;     \n"+
+                        "  4) Tambahan: Lengkapi SOAP;     \n"+
+                        "  Re-Compile_By: Bang Riyan Hidayat Samosir - www.HanyaJasa.Com - hanyajasa@gmail.com, 21.32 06/06/2024 - RS Islam PKU Muhammadiyah Palangka Raya.");
             }catch(Exception e){
                 System.out.println("Notif : "+e);
                 try {
